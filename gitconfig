@@ -1,0 +1,16 @@
+[user]
+	name = Steven.Osborne
+	email = osborne.stevenp@gmail.com
+[core]
+    excludesfile = /Users/stevenosborne/.gitignore_global
+    editor = vim
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[alias]
+    d = difftool
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
