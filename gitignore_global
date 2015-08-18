@@ -1,0 +1,7 @@
+*~
+.DS_Store
+\.ropeproject/
+.idea
+*.pyc
+*.class
+*.egg-info
